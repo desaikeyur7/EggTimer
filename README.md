@@ -52,13 +52,13 @@ BrowserSelector: BrowserSelector extends Utils to use the properties of BasePage
 
 Loadproperties: This class has the logic to assign test data and browser names by creating a TestDataConfig.properties file for the test to fetch the data from this file run test in relevant browser and use data assigned in relevant variables. You will find a path defined in this class. This is the path to TestDataConfig.properties file.
 
-PageObjects Package: This interface has Java .java files for every page user navigates to. These .java files have names relevant to the pages user is on and contains locators and methods for the user to perform some action. This will avoid duplication of code and the code will be easy to maintain and refactor as whenever there is any change to a feature on the page we change it in one place. It saves a lot of time and effort and also it is more readable for someone else reading the code. .java files in Page object extends Utils to use the properties of Utils and BasePage
+PageObjects Package: This interface has Java .java files for every page user navigates to. These .java files have names relevant to the pages user is on and contains locators and methods for the user to perform some action. This will avoid duplication of code and the code will be easy to maintain and refactor as whenever there is any change to a feature on the page we change it in one place. It saves a lot of time and effort and also it is more readable for someone else reading the code. .java files in Page object extends BasePage to use the properties of BasePage
 
 The Test/Java section consists of 3 Java classes and a Directory
 
 Java classes in Test/Java section
 
-Hooks: This class extends Utils to use the properties of BasePage and Utils if required. There are mainly 2 Junit annotations @Before and @After. @Before will execute the logic written in it before any feature files are executed. @After will execute the logic written in it after the completion of a feature file journey
+Hooks: This class extends BasePage to use the properties of BasePage required. There are mainly 2 Junit annotations @Before and @After. @Before will execute the logic written in it before any feature files are executed. @After will execute the logic written in it after the completion of a feature file journey
 
 MyStepDefs: This .java file has snippets created via feature file's Given, When, Then steps written in it. This is integrated with the help of @Runwith and @CucumberOptions annotations in Runtest .java file. These snippets are converted to methods of the same Given, When, Then steps written in .feature files in Gherkin language
 
