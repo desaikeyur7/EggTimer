@@ -3,37 +3,38 @@ Check the timer works as expected
 
 Build and run code:
 
-> Go to "RunTest" .java class which is located under test > java> EggTimer > Runtest 
-> You will see a green play button besides "public class Runtest {"
-> Click the play button
-> You will see a menu open with three options
-> Select the first option "Run runtest"
+> Go to "RunTest" .java class which is located under test > java> EggTimer > Runtest; 
+> You will see a green play button besides "public class Runtest {";
+> Click the play button;
+> You will see a menu open with three options;
+> Select the first option "Run runtest";
 
 Dependencies:
 
 You will see a pom.xml file. Here all the dependencies are located to enable to run the tests in the framework.
 I have used: 
-> Junit 4.11, 
-> selenium-api dependency version 3.141.59 
-> selenium-support dependency version 3.141.59
-> selenium-java 2.39.0
-> selenium-chrome-driver version 3.141.59
-> selenium-ie-driver 3.141.59
-> selenium-firefox-driver 3.141.59
-> cucumber-core 1.2.5
-> cucumber-java 1.2.5
-> cucumber-junit 1.2.5
+> Junit 4.11; 
+> selenium-api dependency version 3.141.59; 
+> selenium-support dependency version 3.141.59;
+> selenium-java 2.39.0;
+> selenium-chrome-driver version 3.141.59;
+> selenium-ie-driver 3.141.59;
+> selenium-firefox-driver 3.141.59;
+> cucumber-core 1.2.5;
+> cucumber-java 1.2.5;
+> cucumber-junit 1.2.5;
 
 Automation Tools and framework Specifications:
 
   I have developed a BDD style framework using Page Object Model. In this framework, I have used:
-  > Java as a coding language
-  > Selenium as an automation tool
-  > Maven as a build tool to enable auto-downloading of dependencies
-  > Gherkin language to enable writing feature files in Given, When, Then format
-  > Cucumber to integrate BDD style framework using cucumberOptions
-  > Junit for annotations such as @Before and @After
-  > Page Object Model design in the framework to avoid duplication of code and efficient maintenance and refactoring of code
+  > Java as a coding language;
+  > Selenium as an automation tool;
+  > Maven as a build tool to enable auto-downloading of dependencies;
+  > Gherkin language to enable writing feature files in Given, When, Then format;
+  > Cucumber to integrate BDD style framework using cucumberOptions;
+  > Junit for annotations such as @Before and @After;
+  > Page Object Model design in the framework to avoid duplication of code and efficient maintenance and refactoring of code;
+  
 Exploring framework structure:
 
 I have used inheritance, one of the OOPS concepts of Java
