@@ -67,7 +67,7 @@ RunTest: This.java file has @Runwith and @CucumberOptions annotations which are 
 
 Resources Directory: Resources Directory has 3 Directories within it. They are:
 
-                 AppleMac: This has .feature file which has test cases in it in Given, When, then format
+                 EggTimer: This has .feature file which has test cases in it in Given, When, then format
                  
                  BrowserDrivers: This has .exe files for internet explorer, Chrome and firefox
                  
