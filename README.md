@@ -1,7 +1,7 @@
 # EggTimer
 Check the timer works as expected
 
-Build and run code:
+# Build and run code:
 
 > Go to "RunTest" .java class which is located under test > java> EggTimer > Runtest; 
 > You will see a green play button besides "public class Runtest {";
@@ -9,7 +9,7 @@ Build and run code:
 > You will see a menu open with three options;
 > Select the first option "Run runtest";
 
-Dependencies:
+# Dependencies:
 
 You will see a pom.xml file. Here all the dependencies are located to enable to run the tests in the framework.
 I have used: 
@@ -24,7 +24,7 @@ I have used:
 > cucumber-java 1.2.5;
 > cucumber-junit 1.2.5;
 
-Automation Tools and framework Specifications:
+# Automation Tools and framework Specifications:
 
   I have developed a BDD style framework using Page Object Model. In this framework, I have used:
   > Java as a coding language;
@@ -35,7 +35,7 @@ Automation Tools and framework Specifications:
   > Junit for annotations such as @Before and @After;
   > Page Object Model design in the framework to avoid duplication of code and efficient maintenance and refactoring of code;
   
-Exploring framework structure:
+# Exploring framework structure:
 
 I have used inheritance, one of the OOPS concepts of Java
 
@@ -55,7 +55,7 @@ Loadproperties: This class has the logic to assign test data and browser names b
 
 PageObjects Package: This interface has Java .java files for every page user navigates to. These .java files have names relevant to the pages user is on and contains locators and methods for the user to perform some action. This will avoid duplication of code and the code will be easy to maintain and refactor as whenever there is any change to a feature on the page we change it in one place. It saves a lot of time and effort and also it is more readable for someone else reading the code. .java files in Page object extends BasePage to use the properties of BasePage
 
-The Test/Java section consists of 3 Java classes and a Directory
+# The Test/Java section consists of 3 Java classes and a Directory
 
 Java classes in Test/Java section
 
